@@ -1,0 +1,51 @@
+.AboutMainContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ 
+}
+.WhyWeBuilt,.aboutme {
+font-size: 1.5rem;
+}
+.WhyWeBuilt h1,.aboutme h1{
+  text-align: center;
+  /* background-color: red; */
+}
+.WhyWeBuilt p{
+padding: 10px 30px;
+}
+.aboutme{
+  border: 2px solid black;
+  border-radius: 7px;
+background: linear-gradient(135deg, #ffffff, #5f92f8);
+
+}
+.aboutprofilepic{
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  padding-top: 10px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.profilepicabout{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+
+}
+.AboutMeIntro p{
+ padding: 10px 30px;
+}
+@media screen and (max-width:659px) {
+  .WhyWeBuilt {
+    font-size:1rem ;
+  }
+  
+}
+@media screen and (max-width:420px) {
+ .aboutme {
+  font-size: 1rem;
+ }
+}

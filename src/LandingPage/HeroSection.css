@@ -1,0 +1,91 @@
+.HeroSection {
+  height: 25rem;
+  background-color: white;
+  display: flex;
+}
+.HeroSectionText {
+  width: 50%;
+  height: 100%;
+  /* background-color: yellow; */
+  display: grid;
+  place-items: center;
+}
+.herosectiontext {
+  width: 80%;
+   font-size: clamp(1rem,3rem,5rem);
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.HeroSectionImg {
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(233, 233, 208); */
+}
+.HeroSectionText p {
+  font-size: 1.2rem;
+  /* background-color: red; */
+}
+.GetStartedBtn {
+  margin-top: 20px;
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(2, 154, 2);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.GetStartedBtn:hover {
+  background-color: rgb(0, 76, 0);
+}
+.HeroSectionImg img {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+@media screen  and (max-width:786px){
+.HeroSectionText {
+    position: relative;
+    width: 100%;
+    color: white;
+    background-image: url(../TaskPage/MainBackgroundImg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.HeroSectionText::before{
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.6);
+}
+.herosectiontext{
+    position: relative;
+    z-index: 3;
+}
+.HeroSection {
+    flex-wrap: wrap ;
+}
+.HeroSectionImg{
+    display: none;
+}
+}
+@media screen and (max-width:540px){
+    .herosectiontext h3{
+    font-size: 2.5rem;
+  }
+  .herosectiontext p{
+    font-size: 1rem;
+  }
+  .GetStartedBtn{
+   width: 60%;
+  }
+}

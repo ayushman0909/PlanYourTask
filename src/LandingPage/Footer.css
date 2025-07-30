@@ -1,0 +1,10 @@
+.LandingPageFooter{
+    height: 3rem;
+    width: 100%;
+    background-color: green;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

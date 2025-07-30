@@ -1,0 +1,117 @@
+.FeaturesPageMainContainer{
+    width: 100%;
+    height: 100%;
+  /* background-color: red; */
+  padding: 20px 0px;
+background: linear-gradient(135deg, #ffffff, #d8e1f3);
+}
+.FeaturesHeadingContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    height: auto;
+    /* background-color: blue; */
+    gap: 20px;
+}
+.FeaturesMainHeading{
+   text-align: center;
+   font-size: clamp(1rem,3rem,5rem);
+}
+.FeaturesHeadingContainer .FeatureSlogan{
+   text-align: center;
+   font-size: clamp(1rem,1.1rem,2rem);
+   font-weight: 500;
+   margin-top: 10px;
+}
+.getStartedFree{
+    /* background-color: rgb(133, 133, 133); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.GetStartedFreeBtn{
+   font-size: clamp(1rem,1.3rem,2rem);
+   padding: 15px 40px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(2, 154, 2);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+ 
+}
+.GetStartedFreeBtn:hover{
+   background-color: rgb(0, 76, 0);
+
+}
+.FeaturesCardContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.CurrentFeaturesContainer,.ComingSoonContainer{
+  
+  height: auto;
+  margin: auto;
+  /* background-color: rgb(14, 61, 30); */
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.part{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.FeatureCardDetail{
+  padding: 20px;
+  border: 2px solid black;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  gap: 20px;
+  transition: 0.3s;
+  
+}
+.FeatureCardDetail:hover{
+ transform: scale(1.07);
+}
+.ComingSoonHeading{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 30px 0px 0px 0px;
+}
+.FeatureCardDetail p{
+  font-size: 0.7rem;
+  text-align: center;
+  
+}
+.featureCardLogo{
+  font-size: 5rem;
+    color: rgb(2, 154, 2);
+
+}
+@media screen and (max-width:569px) {
+  .FeaturesHeadingContainer h4{
+   
+   font-size: clamp(1rem,2rem,3rem);
+}
+.FeaturesHeadingContainer .FeatureSlogan{
+   text-align: center;
+   font-size: clamp(0.5rem,0.7rem,0.9rem);
+   font-weight: 500;
+}
+}

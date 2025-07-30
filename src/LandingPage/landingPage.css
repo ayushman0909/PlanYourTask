@@ -1,0 +1,16 @@
+.landingPageMainContainer{
+    height: 100%;
+    /* background-color: red; */
+    width: 100%;
+    
+}
+.LandingPageContentContainer{
+    width: 100%;
+    margin: auto;
+    /* background-color: green; */
+    
+    
+     font-family: 'Roboto', sans-serif;
+ 
+  font-style: normal;
+}
